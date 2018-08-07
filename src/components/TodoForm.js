@@ -1,11 +1,12 @@
-import react from 'react';
+import React from 'react';
+import style from '../../css/TodoForm.css';
 
-const todoForm = props => (
-    <form>
-        <label for='#task'>What do you have to do?</label>
+const TodoForm = props => (
+    <form className = {style.TodoForm}>
+        <label htmlFor='task'>What do you have to do?</label>
         <input type='text' id='task' value={props.value}/>
         <button onClick={() => props.add(props.value)}>Add task to list!</button>
     </form>
 );
 
-export default todoForm;
+export default TodoForm;

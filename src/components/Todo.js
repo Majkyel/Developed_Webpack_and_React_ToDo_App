@@ -1,7 +1,7 @@
-import react from 'react';
+import React from 'react';
 
-const todo = props => (
+const Todo = props => (
     <li id={props.id} onClick={() => props.remove(props.id)}>{props.text}</li>
 );
 
-export default todo;
+export default Todo;

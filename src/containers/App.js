@@ -1,9 +1,9 @@
 import React from 'react';
 import uuid from 'uuid';
 import style from '../../css/App.css';
-import title from '../components/Title';
-import todoList from '../components/TodoList';
-import todoForm from '../components/TodoForm';
+import Title from '../components/Title';
+import TodoList from '../components/TodoList';
+import TodoForm from '../components/TodoForm';
 
 class App extends React.Component {
 
@@ -46,9 +46,9 @@ class App extends React.Component {
     render() {
         return ( 
             <div className = {style.App}>
-                <title title = 'Application title' length = {this.state.data.length}/> 
-                <todoForm add={this.addTodo} value={this.state.value}/>
-                <todoList list={this.state.data} remove={this.removeTodo}/>
+                <Title title = 'ToDo Application' length = {this.state.data.length}/> 
+                <TodoForm add={this.addTodo} value={this.state.value}/>
+                <TodoList list={this.state.data} remove={this.removeTodo}/>
             </div>
         );
     }

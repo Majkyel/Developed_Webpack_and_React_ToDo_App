@@ -1,10 +1,10 @@
-import react from 'react';
+import React from 'react';
 
-const title = props => (
+const Title = props => (
     <div>
         <h1>{props.title}</h1>
         <h3>Task numbers: {props.length}</h3>
     </div>
-);
+)
 
-export default title;
+export default Title;
