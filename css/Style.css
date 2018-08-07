@@ -1,0 +1,19 @@
+*{box-sizing: border-box;}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+h1 {
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 35px;
+    margin-bottom: 80px;
+}
