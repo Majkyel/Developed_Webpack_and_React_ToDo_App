@@ -1,6 +1,6 @@
 .App {
     background-color: gray;
-    color: #222;
+    color: black;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
