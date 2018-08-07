@@ -16,7 +16,6 @@ While creating the project I used:
 6. Webpack-dev-server [https://webpack.js.org/guides/development/#using-webpack-dev-server]
 7. Hot Module Replacement [https://webpack.js.org/guides/hot-module-replacement/]
 
-
 ## TOOLS 
 I used package.json and webpack.
 
