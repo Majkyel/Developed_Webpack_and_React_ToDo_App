@@ -13,6 +13,9 @@ While creating the project I used:
 3. Webpack Mode [https://webpack.js.org/concepts/mode/]
 4. Optimize-js [https://github.com/nolanlawson/optimize-js]
 5. HTMLWebpackPlugin [https://webpack.js.org/plugins/]
+6. Webpack-dev-server [https://webpack.js.org/guides/development/#using-webpack-dev-server]
+7. Hot Module Replacement [https://webpack.js.org/guides/hot-module-replacement/]
+
 
 ## TOOLS 
 I used package.json and webpack.
